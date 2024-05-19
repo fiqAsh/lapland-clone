@@ -66,5 +66,23 @@ body{
   background-size: cover; 
   background-position:center;
   background-repeat: no-repeat;
-  
+}
+.our-business{
+  background-image: url('logos/OUR-BUSINESS_04.jpg');
+  background-size: cover; 
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.supply-chain{
+  background-image: url('logos/garment-accessory-feat-.jpg');
+  background-size: cover; 
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.social-ethics{
+  background-image: url('logos/about_us_3.jpg');
+  background-size: cover; 
+  background-position:center;
+  background-repeat: no-repeat;
+
 }
