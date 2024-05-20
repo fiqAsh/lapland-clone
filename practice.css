@@ -4,3 +4,27 @@
 .home-pic{
   height: 50px;
 }
+
+.section-div{
+  height: 500px;
+  background-color: antiquewhite;
+  
+}
+.pic-div{
+  background-color: aqua;
+  height: 450px;
+  width: 200px;
+  position: relative;
+}
+.text-div{
+  background-color: lightcoral;
+  position: absolute;
+  justify-content: center;
+  top: 200px;
+  bottom: 0px;
+  left: 30px;
+  right: 40px;
+  align-items: center;
+  
+  
+}

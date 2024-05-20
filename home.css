@@ -66,6 +66,7 @@ body{
   background-size: cover; 
   background-position:center;
   background-repeat: no-repeat;
+  position: relative;
 }
 .our-business{
   background-image: url('logos/OUR-BUSINESS_04.jpg');
@@ -85,4 +86,13 @@ body{
   background-position:center;
   background-repeat: no-repeat;
 
+}
+
+.about-us-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  
 }
