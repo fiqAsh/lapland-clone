@@ -1,0 +1,26 @@
+.header{
+  height:80px;
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  background-color: white;
+}
+.first-pic{
+  position: fixed;
+  height:80px;
+  width:200px;
+  background-color: lightblue;
+}
+.top-bar{
+  height:80px;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  right: 80px;
+  left: 300px;
+}
+.commands{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightblue;  
+}
