@@ -1,5 +1,5 @@
 body{
-  height: 1000px;
+  height: 1500px;
   
 }
 
@@ -74,4 +74,49 @@ body{
   font-weight: bold;
   
 }
+.professional-guidance{
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
 
+  background-size: cover;
+}
+.pro-guide-img{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.pro-guide-img img{
+  position: absolute;
+  top: 60%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 15px;
+  
+}
+
+.pro-guide-text{
+  position:relative;
+  color:white;
+  top:20%;
+  
+}
+
+.second-text{
+  height: 70px;
+  color: white;
+  background-color: #004C97;
+  margin:0;
+}
+.second-text-paragraph{
+  margin:0;
+  padding-left: 60px;
+  padding-top: 20px;
+  font-style:oblique;
+  font-size: larger;
+  font-weight: bold;  
+}
