@@ -1,5 +1,5 @@
 body{
-  height: 1500px;
+  height: 2000px;
   
 }
 
@@ -119,4 +119,20 @@ body{
   font-style:oblique;
   font-size: larger;
   font-weight: bold;  
+}
+.logo-div{
+  height:350px;
+  background-color: aqua;
+  display: flex;
+  
+  position: absolute;
+
+}
+.platform-button{
+  height:300px;
+  width: 300px;
+}
+
+.logo-bar-div{
+  height: 300px;
 }
