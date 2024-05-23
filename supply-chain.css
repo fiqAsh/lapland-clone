@@ -1,0 +1,74 @@
+body{
+  height: 2000px;
+  
+}
+
+.header{
+  height:80px;
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  background-color: white;
+  position: fixed;
+  top:0px;
+  z-index: 100;
+}
+.first-pic{
+  position: fixed;
+  height:80px;
+  width:200px;
+  background-color: lightblue;
+}
+.top-bar{
+  height:80px;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  right: 80px;
+  left: 300px;
+}
+.commands{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightblue;  
+}
+
+.rd-pic-info{
+  height:500px;
+  position: relative;
+  top: 80px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rd-text-div{
+  color:white;
+  font-size: 18px;
+}
+
+
+.rd-pic-div{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.rd-pic-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  
+}
+.text-1{
+  height: 60px;
+  position: relative;
+  background-color: #004c97;
+  top: 64px;
+  color: white;
+}
