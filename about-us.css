@@ -122,17 +122,41 @@ body{
 }
 .logo-div{
   height:350px;
-  background-color: aqua;
-  display: flex;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   
-  position: absolute;
+  
+  
 
 }
 .platform-button{
-  height:300px;
-  width: 300px;
+  position:relative;
+ 
 }
-
 .logo-bar-div{
   height: 300px;
+  
+  background-color: antiquewhite;
+  position: relative;
+}
+.inside-logo-bar{
+  
+  position:absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  bottom: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  
+}
+.icons-class{
+  padding:10px 10px 10px 10px;
+}
+.icons-class img{
+  width: 100%;
+  height: 100%;
+  
 }
