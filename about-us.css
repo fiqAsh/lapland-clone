@@ -8,6 +8,9 @@ body{
   display:grid;
   grid-template-columns: 200px 1fr;
   background-color: white;
+  position: fixed;
+  top:0px;
+  z-index: 100;
 }
 .first-pic{
   position: fixed;
@@ -36,7 +39,8 @@ body{
   background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
 
   background-size: cover;
-  position: relative;  
+  position: relative;
+  top: 71px;  
 }
 
 .info-container{
@@ -186,5 +190,12 @@ body{
 .icons-class img{
   width: 100%;
   height: 100%;
+  
+}
+.nav-bar{
+  height: 80px;
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   
 }
