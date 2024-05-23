@@ -131,13 +131,41 @@ body{
 
 }
 .platform-button{
-  position:relative;
- 
+
+  
+  position: relative;
 }
+.inside-platform{
+  
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 0;
+  bottom: 30%;
+  justify-content:space-evenly;
+}
+.text-div{
+  padding-left: 30px;
+}
+.platform-text{
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+.certificate-button{
+  margin-left: 20px;
+  height: 35px;
+  width: 80%;
+  background-color: #004C97;
+  color: white;
+  border-color:#004C97;
+  border-radius: 10px;
+}
+
 .logo-bar-div{
   height: 300px;
   
-  background-color: antiquewhite;
+  
   position: relative;
 }
 .inside-logo-bar{
