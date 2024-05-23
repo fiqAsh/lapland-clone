@@ -72,3 +72,35 @@ body{
   top: 64px;
   color: white;
 }
+.procurement-pic-info{
+  height:500px;
+  position: relative;
+  top: 80px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.procurement-text-div{
+  color:white;
+  font-size: 18px;
+}
+
+
+.procurement-pic-div{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.procurement-pic-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  
+}
