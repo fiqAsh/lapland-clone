@@ -7,17 +7,19 @@
   top:0px;
   z-index: 100;
 }
-.first-pic{
-  position: fixed;
+.first-pic{ 
   height:80px;
-  width:200px;
-  background-color: lightblue;
+  width:200px;  
+}
+.first-pic img{
+  max-width: 100%;
+  max-height: 100%;
 }
 .top-bar{
   height:80px;
   display: grid;
   position: fixed;
-  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  grid-template-columns: 90px 90px 90px 90px 90px 90px;
   right: 80px;
   left: 300px;
 }
@@ -84,4 +86,7 @@
   padding-left: 10px;
   font-family: sans-serif;
   font-size: 20px;
+}
+.command-text{
+  padding-left: 5px;
 }
