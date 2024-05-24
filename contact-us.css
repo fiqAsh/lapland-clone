@@ -1,0 +1,87 @@
+.header{
+  height:80px;
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  background-color: white;
+  position: fixed;
+  top:0px;
+  z-index: 100;
+}
+.first-pic{
+  position: fixed;
+  height:80px;
+  width:200px;
+  background-color: lightblue;
+}
+.top-bar{
+  height:80px;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  right: 80px;
+  left: 300px;
+}
+.commands{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightblue;  
+}
+
+.whole-body{
+  height: 600px;
+  background-color: bisque;
+  position:relative;
+  top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.1)), url(contact-us/banner-Contuctus.jpg);
+
+  background-size: cover;
+  position: relative;
+}
+
+.inputs{
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.input-box{
+  margin: 2px;
+  border-radius: 5px;
+}
+.comments{
+  height:200px
+}
+.comment-box{
+  height: 200px;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.a-pic{
+  width: 400px; /* Set your desired width */
+  height: 400px; /* Set your desired height */
+  position: relative;
+  
+}
+.a-pic img{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+}
+.text-msg{
+  color: white;
+  padding-left: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
