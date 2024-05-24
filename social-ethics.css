@@ -1,0 +1,162 @@
+body{
+  height: 2000px;
+  
+}
+p{
+  font-family: sans-serif;
+}
+.header{
+  height:80px;
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  background-color: white;
+  position: fixed;
+  top:0px;
+  z-index: 100;
+}
+.first-pic{
+  position: fixed;
+  height:80px;
+  width:200px;
+  background-color: lightblue;
+}
+.top-bar{
+  height:80px;
+  display: grid;
+  position: fixed;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  right: 80px;
+  left: 300px;
+}
+.commands{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightblue;  
+}
+
+.cob-text-pic-div{
+  height: 600px;
+  position: relative;
+  background-color: aqua;
+  top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
+  background-position: center;
+  
+
+}
+.cob-text-div{
+  color: white;
+
+}
+.cob-pic-div{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.cob-pic-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.text1{
+  position: relative;
+  background-color: #004C97;
+  height:60px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.ew-text-pic-div{
+  height: 600px;
+  position: relative;
+  background-color: aqua;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(about-us-page-pics/body-page-pic.jpg);
+
+  background-size: cover;
+
+}
+.ew-text-div{
+  color: white;
+
+}
+.ew-pic-div{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.ew-pic-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.text2{
+  position: relative;
+  background-color: #004C97;
+  height:70px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  top: -20px;
+}
+.inside-text{
+  padding-top: 15px;
+}
+
+.sh-text-pic-div{
+  height: 600px;
+  position: relative;
+  background-color: aqua;
+  top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image:  url(about-us-page-pics/body-page-pic.jpg);
+
+  background-position: right;
+  
+
+}
+.sh-text-div{
+  color: white;
+
+}
+.sh-pic-div{
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  position: relative;
+  overflow: hidden;
+}
+.sh-pic-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.nav-bar{
+  height: 80px;
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+  top: -20px;  
+}
