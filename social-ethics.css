@@ -24,7 +24,8 @@ p{
 }
 .first-pic{ 
   height:80px;
-  width:200px;  
+  width:200px; 
+  cursor: pointer; 
 }
 .first-pic img{
   max-width: 100%;
@@ -54,6 +55,7 @@ p{
   align-items: center;
   
   padding: 0 10px;
+  cursor:pointer;
   
   
     

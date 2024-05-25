@@ -20,7 +20,8 @@ body{
 }
 .first-pic{ 
   height:80px;
-  width:200px;  
+  width:200px; 
+  cursor: pointer; 
 }
 .first-pic img{
   max-width: 100%;
@@ -50,6 +51,7 @@ body{
   align-items: center;
   
   padding: 0 10px;
+  cursor:pointer;
   
   
     
@@ -95,6 +97,12 @@ body{
 }
 .overlay:hover{
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.second-section-buttons :hover{
+  color:white;
+  background-color: blue;
+
 }
 
 
@@ -151,6 +159,7 @@ body{
   right: 40px;
   align-items: center;
   color: white;
+  z-index: 5;
   
 }
 .our-business-text{
