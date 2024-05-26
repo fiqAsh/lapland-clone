@@ -20,6 +20,18 @@ const laplandlogo =document.getElementById('lapland-logo')
 laplandlogo.addEventListener('click',redirect_to_home)
 
 
+const about_us_button =document.getElementById('about-us-button')
+about_us_button.addEventListener('click',redirect_to_about_us)
+
+const our_business_button = document.getElementById('our-business-button')
+our_business_button.addEventListener('click',redirect_to_our_business)
+
+const supply_chain_button =document.getElementById('supply-chain-button')
+supply_chain_button.addEventListener('click',redirect_to_supply_chain)
+
+const social_ethics_button =document.getElementById('social-ethics-button')
+social_ethics_button.addEventListener('click',redirect_to_social_ethics)
+
 
 function redirect_to_home(){
   window.location.href= 'home.html'
