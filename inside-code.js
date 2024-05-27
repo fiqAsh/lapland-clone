@@ -20,6 +20,7 @@ const laplandlogo =document.getElementsByClassName('top-first-pic-logo')[0]
 laplandlogo.addEventListener('click',redirect_to_home)
 
 
+
 const about_us_button =document.getElementById('about-us-button')
 about_us_button.addEventListener('click',redirect_to_about_us)
 
