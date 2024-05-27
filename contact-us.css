@@ -61,7 +61,10 @@
 .command-text:hover{
   color: #563d7c;;
 }
-
+.active {
+  color: #563d7c; /* Darker Purple */
+  font-weight: bold;
+}
 .whole-body{
   height: 600px;
   background-color: bisque;

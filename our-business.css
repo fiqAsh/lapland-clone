@@ -67,6 +67,11 @@ body{
   color: #563d7c;;
 }
 
+.active {
+  color: #563d7c; /* Darker Purple */
+  font-weight: bold;
+}
+
 .info-pic-container{
   display: grid;
   grid-template-columns: 1fr 1fr;

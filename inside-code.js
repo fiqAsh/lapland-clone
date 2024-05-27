@@ -1,22 +1,22 @@
-const homediv=document.getElementById('home')
+const homediv=document.getElementsByClassName('top-home')[0]
 homediv.addEventListener('click',redirect_to_home)
 
-const abtusdiv=document.getElementById('about-us')
+const abtusdiv=document.getElementsByClassName('top-about-us')[0]
 abtusdiv.addEventListener('click',redirect_to_about_us)
 
-const ourbusnesdiv=document.getElementById('our-business')
+const ourbusnesdiv=document.getElementsByClassName('top-our-business')[0]
 ourbusnesdiv.addEventListener('click',redirect_to_our_business)
 
-const supchaindiv=document.getElementById('supply-chain')
+const supchaindiv=document.getElementsByClassName('top-supply-chain')[0]
 supchaindiv.addEventListener('click',redirect_to_supply_chain)
 
-const socethdiv=document.getElementById('social-ethics')
+const socethdiv=document.getElementsByClassName('top-social-ethics')[0]
 socethdiv.addEventListener('click',redirect_to_social_ethics)
 
-const conusdiv=document.getElementById('contact-us')
+const conusdiv=document.getElementsByClassName('top-contact-us')[0]
 conusdiv.addEventListener('click',redirect_to_contact_us)
 
-const laplandlogo =document.getElementById('lapland-logo')
+const laplandlogo =document.getElementsByClassName('top-first-pic-logo')[0]
 laplandlogo.addEventListener('click',redirect_to_home)
 
 
@@ -51,3 +51,31 @@ function redirect_to_social_ethics(){
 function redirect_to_contact_us(){
   window.location.href= 'contact-us.html'
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to set active class
+  function setActiveLink() {
+      const currentPath = window.location.pathname;
+      const links = {
+          'home.html': 'top-home-link',
+          'about-us.html': 'top-about-us-link',
+          'our-business.html': 'top-our-business-link',
+          'supply-chain.html': 'top-supply-chain-link',
+          'social-ethics.html': 'top-social-ethics-link',
+          'contact-us.html': 'top-contact-us-link'
+      };
+
+      for (const path in links) {
+          const elements = document.getElementsByClassName(links[path]);
+          for (let element of elements) {
+              if (currentPath.endsWith(path)) {
+                  element.querySelector('.command-text').classList.add('active');
+              } else {
+                  element.querySelector('.command-text').classList.remove('active');
+              }
+          }
+      }
+  }
+
+  setActiveLink();
+});

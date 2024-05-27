@@ -70,7 +70,10 @@ p{
 .command-text:hover{
   color: #563d7c;;
 }
-
+.active {
+  color: yellow; /* Darker Purple */
+  font-weight: bold;
+}
 .rd-pic-info{
   height:500px;
   position: relative;

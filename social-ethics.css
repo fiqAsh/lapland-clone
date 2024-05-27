@@ -68,6 +68,11 @@ p{
 .command-text:hover{
   color: #563d7c;;
 }
+.active {
+  color: #563d7c; /* Darker Purple */
+  font-weight: bold;
+}
+
 
 .cob-text-pic-div{
   height: 600px;

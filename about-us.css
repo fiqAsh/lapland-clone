@@ -66,6 +66,13 @@ body{
 .command-text:hover{
   color: #563d7c;;
 }
+.active {
+  color: red; /* Darker Purple */
+  font-weight: bold;
+}
+
+
+
 .info-pic-container{
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -69,6 +69,10 @@ body{
   background-color: lightpink;  
 }
 
+.active {
+  color: lightcoral; /* Darker Purple */
+  font-weight: bold;
+}
 
 .second-section{
   
@@ -127,21 +131,21 @@ body{
   position: relative;
 }
 
-.our-business{
+.our-business-pic{
   background-image: url('logos/OUR-BUSINESS_04.jpg');
   background-size: cover; 
   background-position:center;
   background-repeat: no-repeat;
   position:relative;
 }
-.supply-chain{
+.supply-chain-pic{
   background-image: url('logos/garment-accessory-feat-.jpg');
   background-size: cover; 
   background-position:center;
   background-repeat: no-repeat;
   position:relative;
 }
-.social-ethics{
+.social-ethics-pic{
   background-image: url('logos/about_us_3.jpg');
   background-size: cover; 
   background-position:center;
