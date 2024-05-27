@@ -52,30 +52,37 @@ function redirect_to_contact_us(){
   window.location.href= 'contact-us.html'
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Function to set active class
-  function setActiveLink() {
-      const currentPath = window.location.pathname;
-      const links = {
-          'home.html': 'top-home-link',
-          'about-us.html': 'top-about-us-link',
-          'our-business.html': 'top-our-business-link',
-          'supply-chain.html': 'top-supply-chain-link',
-          'social-ethics.html': 'top-social-ethics-link',
-          'contact-us.html': 'top-contact-us-link'
-      };
+const path = window.location.pathname;
+console.log('Pathname:', path);
 
-      for (const path in links) {
-          const elements = document.getElementsByClassName(links[path]);
-          for (let element of elements) {
-              if (currentPath.endsWith(path)) {
-                  element.querySelector('.command-text').classList.add('active');
-              } else {
-                  element.querySelector('.command-text').classList.remove('active');
-              }
-          }
-      }
-  }
+if (path === `/home.html`){
+  document.querySelector('.command-text').classList.add('active')
+}
 
-  setActiveLink();
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   // Function to set active class
+//   function setActiveLink() {
+//       const currentPath = window.location.pathname.split('/').pop().split('.')[0]; // Extracts the last part of the path without extension
+//       const links = {
+//           'home': 'top-home-link',
+//           'about-us': 'top-about-us-link',
+//           'our-business': 'top-our-business-link',
+//           'supply-chain': 'top-supply-chain-link',
+//           'social-ethics': 'top-social-ethics-link',
+//           'contact-us': 'top-contact-us-link'
+//       };
+
+//       for (const path in links) {
+//           const elements = document.getElementsByClassName(links[path]);
+//           for (let element of elements) {
+//               if (currentPath === path) {
+//                   element.querySelector('.command-text').classList.add('active');
+//               } else {
+//                   element.querySelector('.command-text').classList.remove('active');
+//               }
+//           }
+//       }
+//   }
+
+//   setActiveLink();
+// });
