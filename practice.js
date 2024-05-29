@@ -12,6 +12,8 @@ function redirect(){
 }
 
 
+
+
 let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
 
@@ -34,3 +36,7 @@ function nextSlide() {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
 }
+
+// Initial call to display the first slide
+showSlide(currentIndex);
+
