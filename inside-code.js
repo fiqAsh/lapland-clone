@@ -87,3 +87,17 @@ if (path === `/home.html`){
 
 //   setActiveLink();
 // });
+let currentslide = 0;
+
+function changeSlide(direction) {
+    const slides = document.querySelector('.frontimg2');
+    const totalSlides = document.querySelectorAll('.frontimg3').length;
+
+    currentslide = (currentslide + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentslide * 100}%)`;
+}
+
+// Optionally, you can add auto-slide functionality
+setInterval(() => {
+    changeSlide(1);
+}, 3000);
