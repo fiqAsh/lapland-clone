@@ -113,13 +113,7 @@ body{
   background-color: lightsalmon;
 }
 
-.nav-bar{
-  height: 80px;
-  background-color: lightseagreen;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  
-}
+
 .about-us-pic{
   background-image: url('logos/about_us_2.jpg');
   background-size: cover; 
@@ -252,4 +246,22 @@ body{
 
 .button1:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-bar{
+  height: 80px;
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+
+.nav-bar-commands{
+  
+  
+  display: flex;
+  align-items: center;
+  
+  padding: 0 10px;
+  cursor:pointer;   
 }
