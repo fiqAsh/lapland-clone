@@ -14,29 +14,30 @@ function redirect(){
 
 
 
-let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        if (i === index) {
-            slide.classList.add('active');
-        } else {
-            slide.classList.remove('active');
-        }
-    });
+function changeSlide(direction) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
-function prevSlide() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    showSlide(currentIndex);
+
+let currentslide = 0;
+
+function changeSlide(direction) {
+    const slides = document.querySelector('.box2');
+    const totalSlides = document.querySelectorAll('.box3').length;
+
+    currentslide = (currentslide + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentslide * 100}%)`;
 }
 
-function nextSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-}
+// // Optionally, you can add auto-slide functionality
+// setInterval(() => {
+//     changeSlide(1);
+// }, 3000);
 
-// Initial call to display the first slide
-showSlide(currentIndex);
 
