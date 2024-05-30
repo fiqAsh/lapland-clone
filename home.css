@@ -107,11 +107,7 @@ body{
 }
 
 
-.logo-bar{
-  margin-top: 15px;
-  height: 70px;
-  background-color: lightsalmon;
-}
+
 
 
 .about-us-pic{
@@ -273,4 +269,10 @@ body{
 .nav-bar :hover{
   background-color: #002750;
   transition: .25s;
+}
+
+.logo-bar{
+  margin-top: 15px;
+  height: 70px;
+  background-color:lightgray;
 }

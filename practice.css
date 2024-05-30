@@ -163,3 +163,33 @@ button:hover {
 }
 
 
+/* styles.css */
+/* styles.css */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+} */
+
+.slider-container {
+  width: 100%; /* Full width of the screen */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: fit-content; /* Adjust to the width of its content */
+}
+
+.slider img {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px; /* Optional: space between logos */
+}
+
