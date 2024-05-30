@@ -25,37 +25,36 @@ function redirect(){
 // }
 
 
-// let currentslide = 0;
+let currentslide = 0;
 
-// function changeSlide(direction) {
-//     const slides = document.querySelector('.box2');
-//     const totalSlides = document.querySelectorAll('.box3').length;
+function changeSlide(direction) {
+    const slides = document.querySelector('.box2');
+    const totalSlides = document.querySelectorAll('.box3').length;
 
-//     currentslide = (currentslide + direction + totalSlides) % totalSlides;
-//     slides.style.transform = `translateX(-${currentslide * 100}%)`;
+    currentslide = (currentslide + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentslide * 100}%)`;
+}
+
+// Optionally, you can add auto-slide functionality
+setInterval(() => {
+    changeSlide(1);
+}, 3000);
+
+
+
+
+// let crntslid = 0;
+
+// function changeslide(direction) {
+//     const slides = document.querySelector('.image-gallery');
+//     const totalSlides = document.querySelectorAll('.b').length;
+
+//     crntslid = (crntslid + direction + totalSlides) % totalSlides;
+//     slides.style.transform = `translateX(-${crntslid * 100}%)`;
 // }
 
 // // Optionally, you can add auto-slide functionality
 // setInterval(() => {
-//     changeSlide(1);
-// }, 3000);
-
-
-// script.js
-// script.js
-document.addEventListener("DOMContentLoaded", () => {
-  const slider = document.querySelector(".slider");
-  let currentIndex = 0;
-
-  const slideLogos = () => {
-    const logoWidth = 80; // 70px width + 10px margin
-    const visibleLogos = Math.floor(window.innerWidth / logoWidth);
-    const totalLogos = slider.children.length;
-
-    currentIndex = (currentIndex + 1) % (totalLogos - visibleLogos + 1);
-    slider.style.transform = `translateX(-${currentIndex * logoWidth}px)`;
-  };
-
-  setInterval(slideLogos, 2000); // Change every 2 seconds
-});
+//     changeslide(1);
+// }, 500);
 
