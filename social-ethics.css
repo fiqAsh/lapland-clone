@@ -202,18 +202,26 @@ p{
 
 .nav-bar{
   height: 80px;
-  background-color: lightseagreen;
+  background-color: #004C97;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+  
   
 }
 
 .nav-bar-commands{
-  
-  
+  color: white;  
   display: flex;
   align-items: center;
-  
-  padding: 0 10px;
+  justify-content: center;
   cursor:pointer;   
+  border-right: black;
+  border-width: 1px;
+  border-style: groove;
+  text-align: center;
+}
+.nav-bar :hover{
+  background-color: #002750;
+  transition: .25s;
 }
