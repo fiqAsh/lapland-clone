@@ -2,7 +2,9 @@ body{
   height: 2000px;
   
 }
-
+p{
+  font-family: sans-serif;
+}
 .header{
   /* height:80px;
   display:grid;
@@ -67,9 +69,10 @@ body{
   color: #563d7c;;
 }
 
-.active {
-  color: #563d7c; /* Darker Purple */
+.active{
+  font-style: bold;
   font-weight: bold;
+  color:hotpink;
 }
 
 .info-pic-container{

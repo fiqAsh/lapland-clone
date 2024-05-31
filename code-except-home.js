@@ -40,8 +40,4 @@ function redirect_to_contact_us(){
 }
 
 
-const path = window.location.pathname;
-console.log('Pathname:', path);
 
-
-document.querySelector('.command-text').classList.add('active')

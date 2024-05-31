@@ -70,9 +70,10 @@ p{
 .command-text:hover{
   color: #563d7c;;
 }
-.active {
-  color: yellow; /* Darker Purple */
+.active{
+  font-style: bold;
   font-weight: bold;
+  color:hotpink;
 }
 .rd-pic-info{
   height:500px;

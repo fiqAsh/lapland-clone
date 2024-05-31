@@ -1,6 +1,9 @@
 body{
   height: 1000px;
 }
+p{
+  font-family: sans-serif;
+}
 .header{
   /* height:80px;
   display:grid;
@@ -65,11 +68,13 @@ body{
   color: #563d7c;;
 }
 
-
-.active {
-  color: lightcoral; /* Darker Purple */
+.active{
+  font-style: bold;
   font-weight: bold;
+  color:hotpink;
 }
+
+
 
 .second-section{
   

@@ -53,12 +53,8 @@ function redirect_to_contact_us(){
   window.location.href= 'contact-us.html'
 }
 
-const path = window.location.pathname;
-console.log('Pathname:', path);
 
-if (path === `/home.html`){
-  document.querySelector('.command-text').classList.add('active')
-}
+
 
 // document.addEventListener('DOMContentLoaded', function() {
 //   // Function to set active class

@@ -68,9 +68,10 @@ p{
 .command-text:hover{
   color: #563d7c;;
 }
-.active {
-  color: #563d7c; /* Darker Purple */
+.active{
+  font-style: bold;
   font-weight: bold;
+  color:hotpink;
 }
 
 
