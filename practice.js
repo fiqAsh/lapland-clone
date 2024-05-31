@@ -33,6 +33,7 @@ function changeSlide(direction) {
 
     currentslide = (currentslide + direction + totalSlides) % totalSlides;
     slides.style.transform = `translateX(-${currentslide * 100}%)`;
+    
 }
 
 // Optionally, you can add auto-slide functionality
@@ -43,18 +44,19 @@ setInterval(() => {
 
 
 
-// let crntslid = 0;
+let crntslid = 0;
 
-// function changeslide(direction) {
-//     const slides = document.querySelector('.image-gallery');
-//     const totalSlides = document.querySelectorAll('.b').length;
+function changeslide(direction) {
+    const slides = document.querySelector('.image-gallery');
+    const totalSlides = document.querySelectorAll('.insider').length;
 
-//     crntslid = (crntslid + direction + totalSlides) % totalSlides;
-//     slides.style.transform = `translateX(-${crntslid * 100}%)`;
-// }
+    crntslid = (crntslid + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${crntslid * 100}%)`;
+    console.log(totalSlides)
+}
 
-// // Optionally, you can add auto-slide functionality
-// setInterval(() => {
-//     changeslide(1);
-// }, 500);
+// Optionally, you can add auto-slide functionality
+setInterval(() => {
+    changeslide(1);
+}, 2000);
 

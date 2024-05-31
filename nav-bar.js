@@ -35,3 +35,21 @@ function social_ethics_redirect(){
 function contact_us_redirect(){
   window.location.href= 'contact-us.html'
 }
+
+
+
+let crntslid = 0;
+
+function changeslide(direction) {
+    const slides = document.querySelector('.second-div');
+    const totalSlides = document.querySelectorAll('.third-div').length;
+
+    crntslid = (crntslid + direction + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${crntslid * 100}%)`;
+    console.log(totalSlides)
+}
+
+// Optionally, you can add auto-slide functionality
+setInterval(() => {
+    changeslide(1);
+}, 2000);
