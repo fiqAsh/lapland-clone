@@ -102,12 +102,12 @@ p{
   transition: background-color 0.3s ease;
 }
 .overlay:hover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
-.second-section-buttons :hover{
+.second-section-buttons {
   color:white;
-  background-color: blue;
+  background-color: #004C97;
 
 }
 
@@ -149,7 +149,8 @@ p{
 .about-us-text{
   position: absolute;
   justify-content: center;
-  top: 200px;
+  align-items: center;
+  /* top: 150px; */
   bottom: 0px;
   left: 30px;
   right: 40px;
@@ -157,11 +158,13 @@ p{
   color: white;
   z-index: 5;
   
+  
 }
 .our-business-text{
   position: absolute;
   justify-content: center;
-  top: 200px;
+  align-items: center;
+  /* top: 150px; */
   bottom: 0px;
   left: 30px;
   right: 40px;
@@ -172,7 +175,8 @@ p{
 .supply-chain-text{
   position: absolute;
   justify-content: center;
-  top: 200px;
+  align-items: center;
+  /* top: 150px; */
   bottom: 0px;
   left: 30px;
   right: 40px;
@@ -183,7 +187,8 @@ p{
 .social-ethics-text{
   position: absolute;
   justify-content: center;
-  top: 200px;
+  align-items: center;
+  /* top: 150px; */
   bottom: 0px;
   left: 30px;
   right: 40px;
